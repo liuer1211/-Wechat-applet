@@ -1,0 +1,21 @@
+<!--pages/musicDetail/musicDetail.wxml-->
+<view>
+<view class="mus-main">
+      <view class="mus-top-main">
+         <image class="mus-li-top-img" src="http://p3.music.126.net/dQL9KZXbmGZGE2iwiCbrOw==/109951164800334633.jpg?param=100y100" ></image> 
+        <view class="mus-top-sm-img-main">
+         <image class="mus-top-sm-img-main-on" src="http://www.easyicon.net/api/resizeApi.php?id=1132508&size=128"></image>
+         <image class="mus-top-sm-img-main-on" src="http://www.easyicon.net/api/resizeApi.php?id=1114505&size=128"></image>
+        </view>
+      </view>
+      <view class="mus-bot-main">
+        <image class="mus-bot-sp1-icon" src="https://static.easyicon.net/preview/52/520776.gif"></image>
+        <image class="mus-bot-sp1-icon" src="https://static.easyicon.net/preview/53/538061.gif"></image>
+        <image class="mus-bot-sp1-icon" src="https://static.easyicon.net/preview/116/1164037.gif"></image>
+      </view>
+      <view class="mus-bot-sp1">作者：</view>
+      <view class="mus-cen-main">
+        <view>音乐之都：</view>
+      </view>
+    </view>
+</view> 

@@ -1,0 +1,28 @@
+<!--pages/novelDetail/novelDetial.wxml-->
+ <!-- 主体内容 -->
+  <view class="nov-det-main-bg">
+    <!-- 章节 -->
+    <view class="nov-det-main">
+      <div class="nov-det-main-top">
+        <div class="nov-det-main-tit">血雨江湖</div>
+        <div class="nov-det-main-author">作者：六耳</div>
+        <div class="nov-det-main-intro">
+          <p>简介：侠之大者，为国为民。在追寻爱情的道路上，如果有比这更重要的事情该如何？</p>
+        </div>
+      </div>
+      <!-- <div class="nov-det-main-cen">
+        <div class="nov-det-main-foreword">
+          <p>每一个成功的人背后，总有一段心酸的往事。 --六耳</p>
+        </div>
+      </div> -->
+      <!-- <div class="nov-det-main-foot">
+        <div class="nov-det-main-foot-div">想了解更多相关作品请关注<span>班级群论坛</span>微信公众号；</div>
+        <div class="nov-det-main-foot-div" >也可以在<span>纵横网</span>上搜索更多关于作者的作品.</div>
+      </div> -->
+      <div class="nov-det-main-foot">
+        <div class="nov-det-main-foot-div">想了解更多相关作品请关注 夜来随笔 微信公众号；</div>
+        <div class="nov-det-main-foot-div" >也可以在 纵横网 上搜索更多关于作者的作品.</div>
+      </div>
+    </view>
+
+  </view>

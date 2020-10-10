@@ -1,0 +1,196 @@
+/* pages/novel/novel.wxss */
+
+html {
+    font-size: 20px;
+}
+
+body {
+    background: #ffffff;
+}
+
+/* 菜单 start */
+.novel-nav-main-flex{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 100;
+  border-bottom: 0.01rem solid #efc87a;
+}
+.novel-nav-main{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 0.5rem;
+}
+.novel-nav-list{
+  margin: 0 0.5rem;
+  padding: 0.3rem 0;
+  font-size: 0.9rem;
+  color: #000;
+}
+.novel-nav-list.active{
+  border-bottom: 0.1rem solid #efc87a;
+  color: #efc87a;
+}
+/* 菜单 end */
+
+/* 主体内容 start*/
+.novel-cen-main{
+  margin: 2.8rem 0;
+}
+.novel-cen-book-main{
+  padding: 0.8rem;
+}
+.novel-cen-book-list{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 0.5rem;
+  box-shadow: 0rem 0rem 0.5rem 0rem #f0ecec;
+  border-radius: 0.2rem;
+  margin-bottom: 0.8rem;
+}
+.novel-cen-book-left{
+  flex: 1;
+  margin-right: 0.5rem;
+}
+/* 112  150 */
+.novel-cen-book-left-img{
+  display: block;
+  width: 6rem;   
+  height: 8rem;
+  border-radius: 0.2rem;
+}
+.novel-cen-book-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 2;
+}
+.novel-cen-book-right-top{
+  display: flex;
+  flex-direction: column;
+}
+.novel-cen-book-tit{
+  margin-bottom:0.5rem; 
+  font-size: 1.2rem;
+  color: #efc87a;
+  /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+   word-break: break-all; */
+}
+.novel-cen-book-kind{
+  /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all; */
+}
+.novel-cen-book-kind span{
+  margin-right: 0.5rem;
+  font-size: 0.7rem;
+}
+.novel-cen-book-date{
+  font-size: 0.7rem;
+  color: rgb(123, 123, 123);
+  /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  word-break: break-all; */
+}
+
+/* 主体内容 end*/
+
+/*--------底部 start-----------*/
+.xm-foot-flex-main {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgb(248,248,248);
+    z-index: 100;
+}
+
+.xm-foot-main {
+    padding: 0.3rem 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.xm-foot-main-a {
+    flex: 1;
+}
+
+.xm-foot-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.xm-foot-fix-h{
+    height: 2.7rem;
+}
+
+.xm-foot-flex-img {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.xm-foot-flex-span {
+    color: rgb(123, 123, 123);
+    font-size: 0.7rem;
+    margin-top: 0.2rem;
+}
+
+.xm-foot-flex .xm-foot-img-home {
+    background: url(https://www.easyicon.net/api/resizeApi.php?id=1142439&size=128) no-repeat center;
+    background-size: cover;
+}
+
+.xm-foot-flex .xm-foot-img-ins {
+    background: url(https://www.easyicon.net/api/resizeApi.php?id=1070614&size=128) no-repeat center;
+    background-size: cover;
+}
+
+.xm-foot-flex .xm-foot-img-ser {
+    background: url(https://www.easyicon.net/api/resizeApi.php?id=1070633&size=128) no-repeat center;
+    background-size: cover;
+}
+
+.xm-foot-flex .xm-foot-img-my {
+    background: url(https://www.easyicon.net/api/resizeApi.php?id=1070632&size=128) no-repeat center;
+    background-size: cover;
+}
+
+.xm-foot-flex.active span{
+    color: #efc87a;
+}
+
+.xm-foot-flex.active .xm-foot-img-home{
+    background: url(http://www.easyicon.net/api/resizeApi.php?id=1094721&size=128) no-repeat center;
+    background-size: cover;
+}
+
+.xm-foot-flex.active .xm-foot-img-ins{
+    background: url(https://www.easyicon.net/api/resizeApi.php?id=531845&size=128) no-repeat center;
+    background-size: cover;
+}
+
+.xm-foot-flex.active .xm-foot-img-ser{
+    background: url(https://www.easyicon.net/api/resizeApi.php?id=1187188&size=128) no-repeat center;
+    background-size: cover;
+}
+
+.xm-foot-flex.active .xm-foot-img-my{
+    background: url(https://www.easyicon.net/api/resizeApi.php?id=555316&size=128) no-repeat center;
+    background-size: cover;
+}
+
+/*--------底部 end-----------*/
+

@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/musicDetail/musicDetail",
+    "pages/music/music",
+    "pages/novel/novel",
+    
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/video/video",
+    "pages/novelDetail/novelDetial"
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小说",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

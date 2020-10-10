@@ -1,0 +1,37 @@
+<!--pages/video/video.wxml-->
+<view class="">
+  <view>
+    敬请期待。。。
+  </view>
+  <!--底部-->
+  <view class="xm-foot-flex-main">
+      <div class="xm-foot-main">
+        <a bindtap="bindFootTab1" class="xm-foot-main-a" href="javascript:void(0);">
+            <div class="xm-foot-flex">
+                <i class="xm-foot-img-home xm-foot-flex-img"></i>
+                <span class="xm-foot-flex-span">读</span>
+            </div>
+        </a>
+        <a bindtap="bindFootTab2" class="xm-foot-main-a" href="javascript:void(0);">
+            <div class="xm-foot-flex">
+                <i class="xm-foot-img-ins xm-foot-flex-img"></i>
+                <span class="xm-foot-flex-span">听</span>
+            </div>
+        </a>
+        <a bindtap="bindFootTab3" class="xm-foot-main-a" href="javascript:void(0);">
+            <div class="xm-foot-flex active">
+                <i class="xm-foot-img-ser xm-foot-flex-img"></i>
+                <span class="xm-foot-flex-span">看</span>
+            </div>
+        </a>
+        <a bindtap="bindFootTab4" class="xm-foot-main-a" href="javascript:void(0);">
+            <div class="xm-foot-flex">
+                <i class="xm-foot-img-my xm-foot-flex-img"></i>
+                <span class="xm-foot-flex-span">我</span>
+            </div>
+        </a>
+      </div>
+  </view>
+</view>
+
+

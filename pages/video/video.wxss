@@ -1,0 +1,99 @@
+/* pages/video/video.wxss */
+
+html {
+    font-size: 20px;
+}
+
+body {
+    background: #ffffff;
+}
+
+/*--------底部 start-----------*/
+.xm-foot-flex-main {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgb(248,248,248);
+    z-index: 100;
+}
+
+.xm-foot-main {
+    padding: 0.3rem 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.xm-foot-main-a {
+    flex: 1;
+}
+
+.xm-foot-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.xm-foot-fix-h{
+    height: 2.7rem;
+}
+
+.xm-foot-flex-img {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.xm-foot-flex-span {
+    color: rgb(123, 123, 123);
+    font-size: 0.7rem;
+    margin-top: 0.2rem;
+}
+
+.xm-foot-flex .xm-foot-img-home {
+    background: url(https://www.easyicon.net/api/resizeApi.php?id=1142439&size=128) no-repeat center;
+    background-size: cover;
+}
+
+.xm-foot-flex .xm-foot-img-ins {
+    background: url(https://www.easyicon.net/api/resizeApi.php?id=1070614&size=128) no-repeat center;
+    background-size: cover;
+}
+
+.xm-foot-flex .xm-foot-img-ser {
+    background: url(https://www.easyicon.net/api/resizeApi.php?id=1070633&size=128) no-repeat center;
+    background-size: cover;
+}
+
+.xm-foot-flex .xm-foot-img-my {
+    background: url(https://www.easyicon.net/api/resizeApi.php?id=1070632&size=128) no-repeat center;
+    background-size: cover;
+}
+
+.xm-foot-flex.active span{
+    color: #efc87a;
+}
+
+.xm-foot-flex.active .xm-foot-img-home{
+    background: url(http://www.easyicon.net/api/resizeApi.php?id=1094721&size=128) no-repeat center;
+    background-size: cover;
+}
+
+.xm-foot-flex.active .xm-foot-img-ins{
+    background: url(https://www.easyicon.net/api/resizeApi.php?id=531845&size=128) no-repeat center;
+    background-size: cover;
+}
+
+.xm-foot-flex.active .xm-foot-img-ser{
+    background: url(https://www.easyicon.net/api/resizeApi.php?id=1187188&size=128) no-repeat center;
+    background-size: cover;
+}
+
+.xm-foot-flex.active .xm-foot-img-my{
+    background: url(https://www.easyicon.net/api/resizeApi.php?id=555316&size=128) no-repeat center;
+    background-size: cover;
+}
+
+/*--------底部 end-----------*/
+

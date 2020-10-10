@@ -1,0 +1,83 @@
+/* pages/novelDetail/novelDetial.wxss */
+
+html {
+    font-size: 20px;
+}
+
+body {
+    background: #ffffff;
+}
+.nov-det-main-bg{
+  
+}
+.nov-det-main{
+  
+}
+.nov-det-main-top{
+  background: #efc87a;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin: 0 0 1rem;
+}
+.nov-det-main-tit{
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  text-align: center;
+}
+.nov-det-main-author{
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  text-align: center;
+}
+.nov-det-main-intro{
+  font-size: 0.9rem;
+  color: #807a7a;
+  margin: 0.5rem 0.8rem;
+  text-indent: 1.5rem;
+}
+.nov-det-main-cen{
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.2rem;
+  padding: 0.8rem;
+  background:rgb(224, 221, 221);
+}
+.nov-det-main-foreword{
+  font-size: 1rem;
+  color: #000;
+  word-break: break-all;
+  text-indent: 1.5rem;
+}
+.nov-det-main-cen-div{
+  display: flex;
+  flex-direction: column;
+  text-indent: 1.5rem;
+}
+.nov-det-main-cen-div-tit{
+  font-size: 1.1rem;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.6rem 0;
+}
+.nov-det-main-cen-div p{
+  word-break: break-all;
+  line-height: 1.5rem;
+}
+.nov-det-main-foot{
+  margin: 1rem 0 0;
+  background: #efc87a;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+.nov-det-main-foot-div{
+  font-weight: bold;
+  font-size: 1rem;
+}
+.nov-det-main-foot-div span{
+  color: rgb(117, 115, 236);
+}

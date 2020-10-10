@@ -1,0 +1,82 @@
+<!--pages/novel/novel.wxml-->
+<view class="">
+  <!-- 菜单 -->
+  <view class="novel-nav-main-flex">
+    <div class="novel-nav-main">
+      <div class="novel-nav-list active">推荐</div>
+    </div>
+  </view>
+  <!-- 主体内容 -->
+  <view class="novel-cen-main">
+    <!-- 小说列表 -->
+    <view class="novel-cen-book-main">
+      <a bindtap="bindNovelList" class="novel-cen-book-list" href="javascript:void(0);">
+        <div class="novel-cen-book-left">
+          <image class="novel-cen-book-left-img" src='../../images/book/xyjh.png'></image>
+        </div>
+        <div class="novel-cen-book-right">
+          <div class="novel-cen-book-right-top">
+            <h1 class="novel-cen-book-tit">血雨江湖</h1>
+            <div class="novel-cen-book-kind">
+              <span>六耳</span>
+              <span>武侠、爱情</span>
+              <span>更新中</span>
+            </div>
+          </div>
+          <div class="novel-cen-book-date">2019-01-01</div>
+        </div>
+      </a>
+      <!-- 
+        <a class="novel-cen-book-list" href="javascript:void(0);">
+          <div class="novel-cen-book-left">
+            <image class="novel-cen-book-left-img" src='../../images/book/lzxs.png'></image>
+          </div>
+          <div class="novel-cen-book-right">
+            <div class="novel-cen-book-right-top">
+              <h1 class="novel-cen-book-tit">聊斋新说</h1>
+              <div class="novel-cen-book-kind">
+                <span>六耳</span>
+                <span>鬼神、爱情</span>
+                <span>更新中</span>
+              </div>
+            </div>
+            <div class="novel-cen-book-date">2019-01-01</div>
+          </div>
+        </a>
+        <a class="novel-cen-book-list" href="javascript:void(0);">
+          <div class="novel-cen-book-left">
+            <image class="novel-cen-book-left-img" src='../../images/book/cjch.png'></image>
+          </div>
+          <div class="novel-cen-book-right">
+            <div class="novel-cen-book-right-top">
+              <h1 class="novel-cen-book-tit">曾经沧海难为水</h1>
+              <div class="novel-cen-book-kind">
+                <span>六耳</span>
+                <span>古装、励志、爱情</span>
+                <span>更新中</span>
+              </div>
+            </div>
+            <div class="novel-cen-book-date">2019-01-01</div>
+          </div>
+        </a> 
+      -->
+    </view>
+  </view>
+    <!--底部-->
+    <view class="xm-foot-flex-main">
+        <div class="xm-foot-main">
+          <a bindtap="bindFootTab1" class="xm-foot-main-a" href="javascript:void(0);">
+              <div class="xm-foot-flex active">
+                  <i class="xm-foot-img-home xm-foot-flex-img"></i>
+                  <span class="xm-foot-flex-span">读</span>
+              </div>
+          </a>
+          <!-- <a bindtap="bindFootTab2" class="xm-foot-main-a" href="javascript:void(0);">
+            <div class="xm-foot-flex">
+                <i class="xm-foot-img-ins xm-foot-flex-img"></i>
+                <span class="xm-foot-flex-span">听</span>
+            </div>
+          </a> -->
+        </div>
+    </view>
+</view>

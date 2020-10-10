@@ -1,0 +1,185 @@
+/* pages/music/music.wxss */
+
+html {
+    font-size: 20px;
+}
+
+body {
+    background: #ffffff;
+}
+
+.mu-he-main{
+    padding: 0.8rem;
+  }
+  .mu-he-tit-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #d4cdcd;
+    border-radius: 0.8rem;
+    padding: 0.4rem 0.8rem;
+    box-shadow: inset -1rem 1rem 1rem 0rem #cfc2c2;
+   }
+  .mu-he-tit-main span{
+    font-size :0.8rem;
+  }
+  .sp1{
+
+  }
+  .sp2{
+
+  }
+  .sp3{
+
+  }
+  .mu-he-cen-main{
+    margin: 0 0.5rem;
+    padding: 0.4rem 0.5rem;
+    font-size: 0.8rem;
+    background: #eee;
+  }
+  .mu-li-main{
+    padding: 0.8rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .mu-li{
+    width: 50%;
+  }
+  .mu-li-pa{
+    padding: 0.2rem 0.4rem 0.6rem;
+  }
+  .mu-li-top{
+    position: relative;
+  }
+  .mu-li-top-img{
+    width :100%;
+    height :7rem;
+    display: block;
+    border-top-left-radius :0.2rem;
+    border-top-right-radius :0.2rem;
+  }
+  .mu-li-top-img .bg{
+    background: #efc87a
+  }
+  .mu-li-top-sp{
+    color: #ff1;
+    font-size: 0.6rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0.2rem;
+    background: #ddd;
+    border-top-right-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+  }
+  .mu-li-bot{
+    padding: 0.4rem;
+    background: #eee;
+    border-bottom-left-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    display :flex;
+    justify-content :space-between;
+    align-items :center;
+  }
+  .mu-li-bot span{
+    color :#000;
+    font-size:0.8rem;
+  }
+  .mu-li-bot-sp1{
+
+  }
+  .mu-li-bot-sp2{
+
+  }
+
+/*--------底部 start-----------*/
+.xm-foot-flex-main {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgb(248,248,248);
+    z-index: 100;
+}
+
+.xm-foot-main {
+    padding: 0.3rem 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.xm-foot-main-a {
+    flex: 1;
+}
+
+.xm-foot-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.xm-foot-fix-h{
+    height: 2.7rem;
+}
+
+.xm-foot-flex-img {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.xm-foot-flex-span {
+    color: rgb(123, 123, 123);
+    font-size: 0.7rem;
+    margin-top: 0.2rem;
+}
+
+.xm-foot-flex .xm-foot-img-home {
+    background: url(https://www.easyicon.net/api/resizeApi.php?id=1142439&size=128) no-repeat center;
+    background-size: cover;
+}
+
+.xm-foot-flex .xm-foot-img-ins {
+    background: url(https://www.easyicon.net/api/resizeApi.php?id=1070614&size=128) no-repeat center;
+    background-size: cover;
+}
+
+.xm-foot-flex .xm-foot-img-ser {
+    background: url(https://www.easyicon.net/api/resizeApi.php?id=1070633&size=128) no-repeat center;
+    background-size: cover;
+}
+
+.xm-foot-flex .xm-foot-img-my {
+    background: url(https://www.easyicon.net/api/resizeApi.php?id=1070632&size=128) no-repeat center;
+    background-size: cover;
+}
+
+.xm-foot-flex.active span{
+    color: #efc87a;
+}
+
+.xm-foot-flex.active .xm-foot-img-home{
+    background: url(http://www.easyicon.net/api/resizeApi.php?id=1094721&size=128) no-repeat center;
+    background-size: cover;
+}
+
+.xm-foot-flex.active .xm-foot-img-ins{
+    background: url(https://www.easyicon.net/api/resizeApi.php?id=531845&size=128) no-repeat center;
+    background-size: cover;
+}
+
+.xm-foot-flex.active .xm-foot-img-ser{
+    background: url(https://www.easyicon.net/api/resizeApi.php?id=1187188&size=128) no-repeat center;
+    background-size: cover;
+}
+
+.xm-foot-flex.active .xm-foot-img-my{
+    background: url(https://www.easyicon.net/api/resizeApi.php?id=555316&size=128) no-repeat center;
+    background-size: cover;
+}
+
+/*--------底部 end-----------*/
+

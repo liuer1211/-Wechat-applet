@@ -1,0 +1,27 @@
+<!--pages/my/my.wxml-->
+<view class="">
+  <view>
+    <div class="my-main">
+      <image class="my-img" src="{{userInfo.avatarUrl}}"></image>
+      <text class="my-name">{{userInfo.nickName}}</text>
+    </div>
+  </view>
+  <!--底部-->
+  <view class="xm-foot-flex-main">
+      <div class="xm-foot-main">
+        <a bindtap="bindFootTab1" class="xm-foot-main-a" href="javascript:void(0);">
+            <div class="xm-foot-flex">
+                <i class="xm-foot-img-home xm-foot-flex-img"></i>
+                <span class="xm-foot-flex-span">读</span>
+            </div>
+        </a>
+        <a bindtap="bindFootTab4" class="xm-foot-main-a" href="javascript:void(0);">
+            <div class="xm-foot-flex active">
+                <i class="xm-foot-img-my xm-foot-flex-img"></i>
+                <span class="xm-foot-flex-span">我</span>
+            </div>
+        </a>
+      </div>
+  </view>
+</view>
+

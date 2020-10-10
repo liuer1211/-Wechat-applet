@@ -1,0 +1,79 @@
+/* pages/musicDetail/musicDetail.wxss */
+
+  .mus-main{
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .mus-top-main{
+    position: relative;
+  }
+  .mus-top-big-img{
+    display: block;
+    width: 100%;
+    height: 10rem;
+    border-radius: 0.5rem;
+  }
+  .mus-top-sm-img-main{
+    position: absolute;
+    left: 43%;
+    top: 40%;
+    /* border: 0.1rem solid #fff; */
+    border-radius: 2rem;
+    padding: 0.3rem;
+    width: 1rem;
+    height: 1rem;
+  }
+  .mus-top-svg1{
+    color :#fff;
+  }
+  .mus-top-svg2{
+    color :#fff;
+    display: none;
+  }
+  .mus-cen-main{
+    padding :0.8rem;
+    color :#000;
+    font-size :0.7rem;
+  }
+  .mus-bot-main{
+    display: flex;
+    align-items: center;
+  }
+  .mus-bot-main span{
+    font-size :0.8rem;
+    margin: 0 0.8rem;
+  }
+  .mus-bot-sp1{
+
+  }
+  .mus-bot-img1{
+    color :rgb(252,112,35);
+    width :0.8rem;
+    height :0.8rem;
+  }
+  .mus-bot-sp2{
+
+  }
+  .mus-bot-img2{
+    color :rgb(252,112,35);
+    width :0.8rem;
+    height :0.8rem;
+  }
+   .mus-li-top-img{
+    width :100%;
+    height :12rem;
+    display: block;
+    border-top-left-radius :0.2rem;
+    border-top-right-radius :0.2rem;
+  }
+
+  .mus-top-sm-img-main-on{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 2rem;
+  }
+  .mus-bot-sp1-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+  }

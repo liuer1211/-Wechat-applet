@@ -1,0 +1,60 @@
+<!--pages/music/music.wxml-->
+<view class="">
+  <view>
+    <view class="mu-he-main">
+      <view class="mu-he-tit-main">
+        <span class="sp1">第一</span>
+        <span class="sp2">主题</span>
+        <span class="sp3">右侧</span>
+      </view>
+      <view class="mu-he-cen-main">
+        借鉴
+      </view>
+    </view>
+    <view class="mu-li-main">
+      <view class="mu-li" bindtap="bindMusiclList">
+        <view class="mu-li-pa">
+          <view class="mu-li-top">
+            <image class="mu-li-top-img" src="http://p3.music.126.net/dQL9KZXbmGZGE2iwiCbrOw==/109951164800334633.jpg?param=100y100" ></image> 
+            <text class="mu-li-top-sp">热门</text>
+          </view>
+          <view class="mu-li-bot">
+            <view class="mu-li-bot-sp1">古典</view>
+            <view class="mu-li-bot-sp2">...</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!--底部-->
+  <view class="xm-foot-flex-main">
+      <div class="xm-foot-main">
+        <a bindtap="bindFootTab1" class="xm-foot-main-a" href="javascript:void(0);">
+            <div class="xm-foot-flex">
+                <i class="xm-foot-img-home xm-foot-flex-img"></i>
+                <span class="xm-foot-flex-span">读</span>
+            </div>
+        </a>
+        <a bindtap="bindFootTab2" class="xm-foot-main-a" href="javascript:void(0);">
+            <div class="xm-foot-flex active">
+                <i class="xm-foot-img-ins xm-foot-flex-img"></i>
+                <span class="xm-foot-flex-span">听</span>
+            </div>
+        </a>
+        <!-- <a bindtap="bindFootTab3" class="xm-foot-main-a" href="javascript:void(0);">
+            <div class="xm-foot-flex">
+                <i class="xm-foot-img-ser xm-foot-flex-img"></i>
+                <span class="xm-foot-flex-span">看</span>
+            </div>
+        </a>
+        <a bindtap="bindFootTab4" class="xm-foot-main-a" href="javascript:void(0);">
+            <div class="xm-foot-flex">
+                <i class="xm-foot-img-my xm-foot-flex-img"></i>
+                <span class="xm-foot-flex-span">我</span>
+            </div>
+        </a> -->
+      </div>
+  </view>
+</view>
+
+
